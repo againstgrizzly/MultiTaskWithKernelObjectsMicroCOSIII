@@ -1,0 +1,1259 @@
+###############################################################################
+#
+# IAR ELF Linker V3.10.1.3605 for Renesas RX              30/Mar/2018  13:58:40
+# Copyright 2009-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Exe\Blinky.out
+#    Map file     =  
+#        C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\List\Blinky.map
+#    Command line =  
+#        -f C:\Users\Brannon\AppData\Local\Temp\EWF54D.tmp
+#        ("C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\bsp_clk.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\bsp_int.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\bsp_led.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\bsp_os.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\bsp_uart.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\cpu_core.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\lib_ascii.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\lib_math.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\lib_mem.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\lib_str.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\main.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_app_hooks.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_cfg_app.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_core.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_cpu_a.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_cpu_c.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_dbg.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_flag.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_mem.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_mon.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_msg.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_mutex.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_prio.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_q.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_sem.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_stat.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_task.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_tick.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_time.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_tmr.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\os_var.o"
+#        "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj\startup_rx.o"
+#        -o "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Exe\Blinky.out"
+#        --map "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\List\Blinky.map"
+#        --config "C:\Users\Brannon\Development\Independent
+#        Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\..\..\..\..\BSP\Startup\RX\IAR\lnkr5f563nb.icf"
+#        --remarks --config_def _USTACK_SIZE=0x800 --config_def
+#        _ISTACK_SIZE=0x800 --config_def _HEAP_SIZE=0x800 --entry
+#        __iar_program_start --debug_lib --vfe)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__calling_conv             = abi10
+__core                     = 1
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__double_size              = 32
+__endian                   = l
+__enum_size                = var
+__fpu                      = 1
+__int_size                 = 32
+__lock_R10                 = 0
+__lock_R11                 = 0
+__lock_R12                 = 0
+__lock_R13                 = 0
+__lock_R8                  = 0
+__lock_R9                  = 0
+__rt_version               = 5
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0xffffff80 { ro section .nmivec };
+"ROM24":
+       place in [from 0xfff00000 to 0xffffffff] {
+          ro section .code24*, ro section .data24* };
+"RAM24":
+       place in [from 0x00000004 to 0x0001ffff] { rw section .data24* };
+"ROM32":
+       place in [from 0xfff00000 to 0xffffffff] { ro };
+"STACKS":
+       place at end of [0x00000004-0x0001ffff] { block STACKS };
+initialize by copy { rw, ro section D, ro section D_1, ro section D_2 };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"RAM24", part 1 of 2:                      0x404
+  RAM24-1                     0x00000004   0x404  <Init block>
+    .data24.data     inited   0x00000004   0x400  bsp_int.o [1]
+    .data24.data     inited   0x00000404     0x4  main.o [1]
+                            - 0x00000408   0x404
+
+"RAM24", part 2 of 2:                     0x1ad0
+  .data24.bss        zero     0x00000408   0x400  lib_mem.o [1]
+  .data24.bss        zero     0x00000808   0x200  main.o [1]
+  .data24.bss        zero     0x00000a08   0x200  main.o [1]
+  .data24.bss        zero     0x00000c08   0x200  main.o [1]
+  .data24.bss        zero     0x00000e08   0x200  os_var.o [1]
+  .data24.bss        zero     0x00001008   0x190  os_cfg_app.o [1]
+  .data24.bss        zero     0x00001198   0x190  os_cfg_app.o [1]
+  .data24.bss        zero     0x00001328   0x190  os_cfg_app.o [1]
+  .data24.bss        zero     0x000014b8   0x190  os_cfg_app.o [1]
+  .data24.bss        zero     0x00001648   0x180  os_cfg_app.o [1]
+  .data24.bss        zero     0x000017c8   0x100  os_cfg_app.o [1]
+  .data24.bss        zero     0x000018c8    0xac  main.o [1]
+  .data24.bss        zero     0x00001974    0xac  main.o [1]
+  .data24.bss        zero     0x00001a20    0xac  main.o [1]
+  .data24.bss        zero     0x00001acc    0xac  os_var.o [1]
+  .data24.bss        zero     0x00001b78    0xac  os_var.o [1]
+  .data24.bss        zero     0x00001c24    0xac  os_var.o [1]
+  .data24.bss        zero     0x00001cd0    0xac  os_var.o [1]
+  .data24.bss        zero     0x00001d7c    0x51  bsp_uart.o [1]
+  .data24.bss        zero     0x00001dce     0x2  os_var.o [1]
+  .data24.bss        zero     0x00001dd0    0x18  main.o [1]
+  .data24.bss        zero     0x00001de8    0x18  main.o [1]
+  .data24.bss        zero     0x00001e00    0x18  os_var.o [1]
+  .data24.bss        zero     0x00001e18    0x14  lib_mem.o [1]
+  .data24.bss        zero     0x00001e2c    0x10  bsp_uart.o [1]
+  .data24.bss        zero     0x00001e3c    0x10  bsp_uart.o [1]
+  .data24.bss        zero     0x00001e4c    0x10  bsp_uart.o [1]
+  .data24.bss        zero     0x00001e5c     0x8  os_prio.o [1]
+  .data24.bss        zero     0x00001e64     0x8  os_var.o [1]
+  .data24.bss        zero     0x00001e6c     0x4  lib_mem.o [1]
+  .data24.bss        zero     0x00001e70     0x4  os_cpu_c.o [1]
+  .data24.bss        zero     0x00001e74     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e78     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e7c     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e80     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e84     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e88     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e8c     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e90     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e94     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e98     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001e9c     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001ea0     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001ea4     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001ea8     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001eac     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001eb0     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001eb4     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001eb8     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001ebc     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001ec0     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001ec4     0x4  os_var.o [1]
+  .data24.bss        zero     0x00001ec8     0x2  os_var.o [1]
+  .data24.bss        zero     0x00001eca     0x2  os_var.o [1]
+  .data24.bss        zero     0x00001ecc     0x1  bsp_uart.o [1]
+  .data24.bss        zero     0x00001ecd     0x1  bsp_uart.o [1]
+  .data24.bss        zero     0x00001ece     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ecf     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ed0     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ed1     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ed2     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ed3     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ed4     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ed5     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ed6     0x1  os_var.o [1]
+  .data24.bss        zero     0x00001ed7     0x1  os_var.o [1]
+                            - 0x00001ed8  0x1ad0
+
+"STACKS":                                  0x800
+  STACKS                      0x0001f800   0x800  <Block>
+    ISTACK                    0x0001f800   0x800  <Block>
+      ISTACK         uninit   0x0001f800   0x800  <Block tail>
+                            - 0x00020000   0x800
+
+"ROM24", part 1 of 2:                      0x1d3
+  .data24.rodata     const    0xfff00000   0x100  cpu_core.o [1]
+  .data24.rodata     const    0xfff00100    0x1b  main.o [1]
+  .data24.rodata     const    0xfff0011b     0xd  bsp_uart.o [1]
+  .data24.rodata     const    0xfff00128     0xd  bsp_uart.o [1]
+  .data24.rodata     const    0xfff00135     0xd  main.o [1]
+  .data24.rodata     const    0xfff00142     0xd  main.o [1]
+  .data24.rodata     const    0xfff0014f     0xd  main.o [1]
+  .data24.rodata     const    0xfff0015c     0xb  main.o [1]
+  .data24.rodata     const    0xfff00167     0xb  main.o [1]
+  .data24.rodata     const    0xfff00172     0xa  bsp_uart.o [1]
+  .data24.rodata     const    0xfff0017c     0x5  lib_mem.o [1]
+  .data24.rodata     const    0xfff00182     0x2  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff00184     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff00188     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff0018c     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff00190     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff00194     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff00198     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff0019c     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001a0     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001a4     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001a8     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001ac     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001b0     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001b4     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001b8     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001bc     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001c0     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001c4     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001c8     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001cc     0x4  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001d0     0x1  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001d1     0x1  os_cfg_app.o [1]
+  .data24.rodata     const    0xfff001d2     0x1  os_cfg_app.o [1]
+                            - 0xfff001d3   0x1d3
+
+"ROM32":                                  0x56ac
+  .text              ro code  0xfff001d4   0xcfb  xprintffull_nomb.o [4]
+  .text              ro code  0xfff00ecf    0xa5  div64u.o [5]
+  .text              ro code  0xfff00f74     0xb  memcpy.o [4]
+  .text              ro code  0xfff00f80     0xd  div.o [4]
+  .data32.rodata     const    0xfff00f8d     0x7  xprintffull_nomb.o [4]
+  .text              ro code  0xfff00f94    0x28  xdnorm.o [4]
+  .text              ro code  0xfff00fbc    0xe1  xdscale.o [4]
+  .text              ro code  0xfff0109d    0x24  f32toi32.o [4]
+  .data32.rodata     const    0xfff010c1     0x2  xprintffull_nomb.o [4]
+  .text              ro code  0xfff010c4    0x12  strchr.o [4]
+  .text              ro code  0xfff010d6     0x2  def_nmi_handlers.o [6]
+  .text              ro code  0xfff010d8     0xe  strlen.o [4]
+  .text              ro code  0xfff010e8    0x17  memchr.o [4]
+  .text              ro code  0xfff010ff   0x8f3  os_core.o [1]
+  .text              ro code  0xfff019f2   0x8b0  os_task.o [1]
+  .text              ro code  0xfff022a2   0x189  os_cpu_c.o [1]
+  .text              ro code  0xfff0242b    0x9d  os_prio.o [1]
+  .text              ro code  0xfff024c8     0x4  os_mem.o [1]
+  .text              ro code  0xfff024cc   0x199  os_msg.o [1]
+  .text              ro code  0xfff02665   0x375  os_tick.o [1]
+  .text              ro code  0xfff029da   0x354  os_stat.o [1]
+  .text              ro code  0xfff02d2e   0x1ce  os_tmr.o [1]
+  .text              ro code  0xfff02efc     0x1  os_cfg_app.o [1]
+  .text              ro code  0xfff02efd    0xa1  os_cpu_a.o [1]
+  .text              ro code  0xfff02f9e   0x427  os_mutex.o [1]
+  .text              ro code  0xfff033c5    0x54  cpu_core.o [1]
+  .text              ro code  0xfff03419   0x2bd  os_time.o [1]
+  .text              ro code  0xfff036d6   0x4a6  bsp_led.o [1]
+  .text              ro code  0xfff03b7c   0x4a1  bsp_clk.o [1]
+  .inttable                   0xfff04020   0x400  <Block>
+    .inttable        const    0xfff04020   0x400  interrupt_table.o [4]
+  .text              ro code  0xfff04420   0x37d  bsp_int.o [1]
+  .text              ro code  0xfff0479d   0x356  main.o [1]
+  .text              ro code  0xfff04af3   0x120  bsp_os.o [1]
+  .text              ro code  0xfff04c13    0x8f  lib_mem.o [1]
+  .text              ro code  0xfff04ca2   0x2fb  os_q.o [1]
+  .text              ro code  0xfff04f9d    0x77  os_app_hooks.o [1]
+  .text              ro code  0xfff05014   0x306  bsp_uart.o [1]
+  .text              ro code  0xfff0531a   0x2c8  os_sem.o [1]
+  .text              ro code  0xfff055e4    0x2b  vsprintf.o [4]
+  .text              ro code  0xfff05610    0x6c  lz77_init_single.o [4]
+  .switch.rodata     const    0xfff0567c    0x2a  xprintffull_nomb.o [4]
+  .text              ro code  0xfff056a8    0x22  startup_rx.o [1]
+  .text              ro code  0xfff056cc    0x1f  data_init.o [4]
+  .text              ro code  0xfff056ec     0x4  exit.o [4]
+  .text              ro code  0xfff056f0     0x8  cexit.o [4]
+  .text              ro code  0xfff056f8    0x12  __dbg_xxexit.o [3]
+  .text              ro code  0xfff0570c     0x1  __dbg_break.o [3]
+  .iar.init_table    const    0xfff05710    0x20  - Linker created -
+  .text              ro code  0xfff05730    0x20  interrupt_table.o [4]
+  .text              ro code  0xfff05750     0xf  __dbg_abort.o [3]
+  .switch.rodata     const    0xfff05760    0x1e  bsp_led.o [1]
+  .switch.rodata     const    0xfff05780    0x1e  bsp_led.o [1]
+  .switch.rodata     const    0xfff057a0    0x1e  bsp_led.o [1]
+  .text              ro code  0xfff057c0    0x1a  zero_init2.o [4]
+  .switch.rodata     const    0xfff057dc    0x18  main.o [1]
+  .switch.rodata     const    0xfff057f4    0x10  os_task.o [1]
+  .switch.rodata     const    0xfff05804    0x10  os_task.o [1]
+  .switch.rodata     const    0xfff05814    0x10  os_task.o [1]
+  .switch.rodata     const    0xfff05824     0xc  bsp_clk.o [1]
+  .text              ro code  0xfff05830     0xb  xsprout.o [4]
+  .switch.rodata     const    0xfff0583c     0x9  bsp_int.o [1]
+  .switch.rodata     const    0xfff05848     0x8  os_core.o [1]
+  .switch.rodata     const    0xfff05850     0x8  os_task.o [1]
+  .switch.rodata     const    0xfff05858     0x6  bsp_clk.o [1]
+  .switch.rodata     const    0xfff05860     0x6  bsp_clk.o [1]
+  .switch.rodata     const    0xfff05868     0x6  bsp_clk.o [1]
+  .data32.rodata     const    0xfff05870     0x4  xprintffull_nomb.o [4]
+  .data32.rodata     const    0xfff05874     0x4  xprintffull_nomb.o [4]
+  .data32.rodata     const    0xfff05878     0x4  xprintffull_nomb.o [4]
+  .data32.rodata     const    0xfff0587c     0x4  xprintffull_nomb.o [4]
+                            - 0xfff05880  0x56ac
+
+"ROM24", part 2 of 2:                      0x30d
+  Initializer bytes  const    0xfff05880   0x30d  <for RAM24-1>
+                            - 0xfff05b8d   0x30d
+
+"A0":                                       0x80
+  .nmivec            const    0xffffff80    0x80  nmivec.o [6]
+                            - 0x00000000    0x80
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (___iar_zero_init2)
+    1 destination range, total size 0x1ad0:
+          0x00000408  0x1ad0
+
+Copy/lz77 (___iar_lz77_init_single2)
+    1 source range, total size 0x30d (75% of destination):
+          0xfff05880   0x30d
+    1 destination range, total size 0x404:
+          0x00000004   0x404
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
+C:\Users\Brannon\Development\Independent Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj: [1]
+    bsp_clk.o             1 185       30
+    bsp_int.o               893      786    1 024
+    bsp_led.o             1 190       90
+    bsp_os.o                288
+    bsp_uart.o              774       36      131
+    cpu_core.o               84      256
+    lib_mem.o               143        5    1 048
+    main.o                  854      116    2 104
+    os_app_hooks.o          119
+    os_cfg_app.o              1       81    2 240
+    os_core.o             2 291        8
+    os_cpu_a.o              161
+    os_cpu_c.o              393                 4
+    os_mem.o                  4
+    os_msg.o                409
+    os_mutex.o            1 063
+    os_prio.o               157                 8
+    os_q.o                  763
+    os_sem.o                712
+    os_stat.o               852
+    os_task.o             2 224       56
+    os_tick.o               885
+    os_time.o               701
+    os_tmr.o                462
+    os_var.o                                1 332
+    startup_rx.o             34
+    ---------------------------------------------
+    Total:               16 642    1 464    7 891
+
+command line: [2]
+    ---------------------------------------------
+    Total:
+
+dbgrxflld.a: [3]
+    __dbg_abort.o            15
+    __dbg_break.o             1
+    __dbg_xxexit.o           18
+    ---------------------------------------------
+    Total:                   34
+
+dlrxflln.a: [4]
+    cexit.o                   8
+    data_init.o              31
+    div.o                    13
+    exit.o                    4
+    f32toi32.o               36
+    interrupt_table.o        32    1 024
+    lz77_init_single.o      108
+    memchr.o                 23
+    memcpy.o                 11
+    strchr.o                 18
+    strlen.o                 14
+    vsprintf.o               43
+    xdnorm.o                 40
+    xdscale.o               225
+    xprintffull_nomb.o    3 323       67
+    xsprout.o                11
+    zero_init2.o             26
+    ---------------------------------------------
+    Total:                3 966    1 091
+
+rtrxfll.a: [5]
+    div64u.o                165
+    ---------------------------------------------
+    Total:                  165
+
+strxl.a: [6]
+    def_nmi_handlers.o        2
+    nmivec.o                         128
+    ---------------------------------------------
+    Total:                    2      128
+
+    Gaps                     16       21        1
+    Linker created                    32    2 048
+-------------------------------------------------
+    Grand Total:         20 825    2 736    9 940
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0xfff05710          --   Gb  - Linker created -
+.iar.init_table$$Limit  0xfff05730          --   Gb  - Linker created -
+.inttable$$Base         0xfff04020          --   Gb  - Linker created -
+.inttable$$Limit        0xfff04420          --   Gb  - Linker created -
+BSP_UART_Printf::buffer
+                        0x00001d7c   0x51  Data  Lc  bsp_uart.o [1]
+ISTACK$$Base            0x0001f800          --   Gb  - Linker created -
+ISTACK$$Limit           0x00020000          --   Gb  - Linker created -
+Region$$Table$$Base     0xfff05710          --   Gb  - Linker created -
+Region$$Table$$Limit    0xfff05730          --   Gb  - Linker created -
+STACKS$$Base            0x0001f800          --   Gb  - Linker created -
+STACKS$$Limit           0x00020000          --   Gb  - Linker created -
+_AppMutex               0x00001dd0   0x18  Data  Lc  main.o [1]
+_AppQ                   0x00001de8   0x18  Data  Lc  main.o [1]
+_AppTask1               0xfff04913   0x4b  Code  Lc  main.o [1]
+_AppTask1_Stk           0x00000a08  0x200  Data  Lc  main.o [1]
+_AppTask1_TCB           0x00001974   0xac  Data  Lc  main.o [1]
+_AppTask2               0xfff0495e  0x195  Code  Lc  main.o [1]
+_AppTask2_Stk           0x00000c08  0x200  Data  Lc  main.o [1]
+_AppTask2_TCB           0x00001a20   0xac  Data  Lc  main.o [1]
+_App_OS_IdleTaskHook    0xfff0500d    0x1  Code  Gb  os_app_hooks.o [1]
+_App_OS_SetAllHooks     0xfff04f9d   0x70  Code  Gb  os_app_hooks.o [1]
+_App_OS_StatTaskHook    0xfff0500e    0x1  Code  Gb  os_app_hooks.o [1]
+_App_OS_TaskCreateHook  0xfff0500f    0x1  Code  Gb  os_app_hooks.o [1]
+_App_OS_TaskDelHook     0xfff05010    0x1  Code  Gb  os_app_hooks.o [1]
+_App_OS_TaskReturnHook  0xfff05011    0x1  Code  Gb  os_app_hooks.o [1]
+_App_OS_TaskSwHook      0xfff05012    0x1  Code  Gb  os_app_hooks.o [1]
+_App_OS_TimeTickHook    0xfff05013    0x1  Code  Gb  os_app_hooks.o [1]
+_BSP_ClkDisable         0xfff03da5   0x8c  Code  Gb  bsp_clk.o [1]
+_BSP_ClkEnable          0xfff03d4f   0x56  Code  Gb  bsp_clk.o [1]
+_BSP_ClkFreqGet         0xfff03f8e   0x8f  Code  Gb  bsp_clk.o [1]
+_BSP_ClkFreqSet         0xfff03bb0  0x19f  Code  Gb  bsp_clk.o [1]
+_BSP_ClkInit            0xfff03e9a   0xf4  Code  Gb  bsp_clk.o [1]
+_BSP_ClkPLL_FreqGet     0xfff03b7c   0x34  Code  Lc  bsp_clk.o [1]
+_BSP_ClkPLL_FreqSet     0xfff03e31   0x69  Code  Lc  bsp_clk.o [1]
+_BSP_IntClear           0xfff044e4   0x19  Code  Gb  bsp_int.o [1]
+_BSP_IntDisable         0xfff044b8   0x2c  Code  Gb  bsp_int.o [1]
+_BSP_IntEnable          0xfff0448e   0x2a  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_000     0xfff045a1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_001     0xfff045a3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_002     0xfff045a5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_003     0xfff045a7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_004     0xfff045a9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_005     0xfff045ab    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_006     0xfff045ad    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_007     0xfff045af    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_008     0xfff045b1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_009     0xfff045b3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_010     0xfff045b5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_011     0xfff045b7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_012     0xfff045b9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_013     0xfff045bb    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_014     0xfff045bd    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_015     0xfff045bf    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_016     0xfff045c1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_017     0xfff045c3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_018     0xfff045c5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_019     0xfff045c7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_020     0xfff045c9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_021     0xfff045cb    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_022     0xfff045cd    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_023     0xfff045cf    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_024     0xfff045d1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_025     0xfff045d3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_026     0xfff045d5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_029     0xfff045d7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_030     0xfff045d9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_031     0xfff045db    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_032     0xfff045dd    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_033     0xfff045df    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_034     0xfff045e1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_035     0xfff045e3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_036     0xfff045e5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_037     0xfff045e7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_038     0xfff045e9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_039     0xfff045eb    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_040     0xfff045ed    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_041     0xfff045ef    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_042     0xfff045f1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_043     0xfff045f3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_044     0xfff045f5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_045     0xfff045f7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_046     0xfff045f9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_047     0xfff045fb    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_048     0xfff045fd    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_049     0xfff045ff    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_050     0xfff04601    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_051     0xfff04603    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_052     0xfff04605    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_053     0xfff04607    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_054     0xfff04609    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_055     0xfff0460b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_056     0xfff0460d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_057     0xfff0460f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_058     0xfff04611    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_059     0xfff04613    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_060     0xfff04615    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_061     0xfff04617    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_062     0xfff04619    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_063     0xfff0461b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_064     0xfff0461d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_065     0xfff0461f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_066     0xfff04621    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_067     0xfff04623    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_068     0xfff04625    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_069     0xfff04627    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_070     0xfff04629    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_071     0xfff0462b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_072     0xfff0462d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_073     0xfff0462f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_074     0xfff04631    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_075     0xfff04633    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_076     0xfff04635    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_077     0xfff04637    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_078     0xfff04639    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_079     0xfff0463b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_080     0xfff0463d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_081     0xfff0463f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_082     0xfff04641    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_083     0xfff04643    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_084     0xfff04645    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_085     0xfff04647    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_086     0xfff04649    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_087     0xfff0464b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_088     0xfff0464d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_089     0xfff0464f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_090     0xfff04651    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_091     0xfff04653    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_092     0xfff04655    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_093     0xfff04657    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_094     0xfff04659    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_095     0xfff0465b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_096     0xfff0465d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_097     0xfff0465f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_098     0xfff04661    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_099     0xfff04663    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_100     0xfff04665    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_101     0xfff04667    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_102     0xfff04669    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_103     0xfff0466b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_104     0xfff0466d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_105     0xfff0466f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_106     0xfff04671    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_107     0xfff04673    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_108     0xfff04675    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_109     0xfff04677    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_110     0xfff04679    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_111     0xfff0467b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_112     0xfff0467d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_113     0xfff0467f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_114     0xfff04681    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_115     0xfff04683    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_116     0xfff04685    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_117     0xfff04687    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_118     0xfff04689    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_119     0xfff0468b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_120     0xfff0468d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_121     0xfff0468f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_122     0xfff04691    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_123     0xfff04693    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_124     0xfff04695    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_125     0xfff04697    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_126     0xfff04699    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_127     0xfff0469b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_128     0xfff0469d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_129     0xfff0469f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_130     0xfff046a1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_131     0xfff046a3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_132     0xfff046a5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_133     0xfff046a7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_134     0xfff046a9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_135     0xfff046ab    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_136     0xfff046ad    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_137     0xfff046af    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_138     0xfff046b1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_139     0xfff046b3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_140     0xfff046b5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_141     0xfff046b7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_142     0xfff046b9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_143     0xfff046bb    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_144     0xfff046bd    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_145     0xfff046bf    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_146     0xfff046c1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_147     0xfff046c3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_148     0xfff046c5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_149     0xfff046c7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_150     0xfff046c9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_151     0xfff046cb    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_152     0xfff046cd    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_153     0xfff046cf    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_154     0xfff046d1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_155     0xfff046d3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_156     0xfff046d5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_157     0xfff046d7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_158     0xfff046d9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_159     0xfff046db    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_160     0xfff046dd    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_161     0xfff046df    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_162     0xfff046e1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_163     0xfff046e3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_164     0xfff046e5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_165     0xfff046e7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_166     0xfff046e9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_167     0xfff046eb    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_168     0xfff046ed    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_169     0xfff046ef    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_170     0xfff046f1    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_171     0xfff046f3    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_172     0xfff046f5    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_173     0xfff046f7    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_174     0xfff046f9    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_175     0xfff046fb    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_176     0xfff046fd    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_177     0xfff046ff    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_178     0xfff04701    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_179     0xfff04703    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_180     0xfff04705    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_181     0xfff04707    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_182     0xfff04709    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_183     0xfff0470b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_184     0xfff0470d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_185     0xfff0470f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_186     0xfff04711    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_187     0xfff04713    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_188     0xfff04715    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_189     0xfff04717    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_190     0xfff04719    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_191     0xfff0471b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_192     0xfff0471d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_193     0xfff0471f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_194     0xfff04721    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_195     0xfff04723    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_196     0xfff04725    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_197     0xfff04727    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_198     0xfff04729    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_199     0xfff0472b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_200     0xfff0472d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_201     0xfff0472f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_202     0xfff04731    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_203     0xfff04733    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_204     0xfff04735    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_205     0xfff04737    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_206     0xfff04739    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_207     0xfff0473b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_208     0xfff0473d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_209     0xfff0473f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_210     0xfff04741    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_211     0xfff04743    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_212     0xfff04745    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_213     0xfff04747    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_214     0xfff04749    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_215     0xfff0474b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_216     0xfff0474d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_217     0xfff0474f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_218     0xfff04751    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_219     0xfff04753    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_220     0xfff04755    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_221     0xfff04757    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_222     0xfff04759    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_223     0xfff0475b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_224     0xfff0475d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_225     0xfff0475f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_226     0xfff04761    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_227     0xfff04763    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_228     0xfff04765    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_229     0xfff04767    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_230     0xfff04769    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_231     0xfff0476b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_232     0xfff0476d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_233     0xfff0476f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_234     0xfff04771    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_235     0xfff04773    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_236     0xfff04775    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_237     0xfff04777    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_238     0xfff04779    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_239     0xfff0477b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_240     0xfff0477d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_241     0xfff0477f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_242     0xfff04781    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_243     0xfff04783    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_244     0xfff04785    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_245     0xfff04787    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_246     0xfff04789    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_247     0xfff0478b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_248     0xfff0478d    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_249     0xfff0478f    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_250     0xfff04791    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_251     0xfff04793    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_252     0xfff04795    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_253     0xfff04797    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_254     0xfff04799    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntHandler_255     0xfff0479b    0x2  Code  Gb  bsp_int.o [1]
+_BSP_IntInit            0xfff04462   0x2c  Code  Gb  bsp_int.o [1]
+_BSP_IntPrioSet         0xfff044fd   0xa4  Code  Gb  bsp_int.o [1]
+_BSP_IntVectSet         0xfff04420   0x42  Code  Gb  bsp_int.o [1]
+_BSP_IntVectTbl         0x00000004  0x400  Data  Lc  bsp_int.o [1]
+_BSP_LED_Init           0xfff037bc   0x16  Code  Gb  bsp_led.o [1]
+_BSP_LED_Off            0xfff036d6   0xe6  Code  Gb  bsp_led.o [1]
+_BSP_LED_On             0xfff037d2   0xe8  Code  Gb  bsp_led.o [1]
+_BSP_LED_Toggle         0xfff038ba  0x2c2  Code  Gb  bsp_led.o [1]
+_BSP_OS_SemCreate       0xfff04bbe   0x19  Code  Gb  bsp_os.o [1]
+_BSP_OS_SemPost         0xfff04bfe   0x15  Code  Gb  bsp_os.o [1]
+_BSP_OS_SemWait         0xfff04bd7   0x27  Code  Gb  bsp_os.o [1]
+_BSP_OS_TickEnable      0xfff04b76   0x1e  Code  Gb  bsp_os.o [1]
+_BSP_OS_TickISR         0xfff04b94   0x2a  Code  Gb  bsp_os.o [1]
+_BSP_OS_TickInit        0xfff04af3   0x83  Code  Gb  bsp_os.o [1]
+_BSP_UART_GetBRR        0xfff050d6   0x3f  Code  Lc  bsp_uart.o [1]
+_BSP_UART_ISR_Rx_Handler
+                        0xfff0528e   0x44  Code  Gb  bsp_uart.o [1]
+_BSP_UART_ISR_Tx_Handler
+                        0xfff052d2   0x48  Code  Gb  bsp_uart.o [1]
+_BSP_UART_Init          0xfff05014   0xc2  Code  Gb  bsp_uart.o [1]
+_BSP_UART_Lock          0x00001e4c   0x10  Data  Lc  bsp_uart.o [1]
+_BSP_UART_Printf        0xfff0526a   0x24  Code  Gb  bsp_uart.o [1]
+_BSP_UART_RxData        0x00001ecc    0x1  Data  Lc  bsp_uart.o [1]
+_BSP_UART_RxWait        0x00001e2c   0x10  Data  Lc  bsp_uart.o [1]
+_BSP_UART_Start         0xfff05115   0xca  Code  Gb  bsp_uart.o [1]
+_BSP_UART_Status        0x00001ecd    0x1  Data  Lc  bsp_uart.o [1]
+_BSP_UART_TxByteUnlocked
+                        0xfff051df   0x35  Code  Lc  bsp_uart.o [1]
+_BSP_UART_TxString      0xfff05214   0x56  Code  Gb  bsp_uart.o [1]
+_BSP_UART_TxWait        0x00001e3c   0x10  Data  Lc  bsp_uart.o [1]
+_CPU_CntLeadZeros       0xfff03417    0x2  Code  Gb  cpu_core.o [1]
+_CPU_CntLeadZeros32     0xfff033c8   0x4f  Code  Gb  cpu_core.o [1]
+_CPU_CntLeadZerosTbl    0xfff00000  0x100  Data  Lc  cpu_core.o [1]
+_CPU_Init               0xfff033c5    0x1  Code  Gb  cpu_core.o [1]
+_CPU_SW_Exception       0xfff033c6    0x2  Code  Gb  cpu_core.o [1]
+_LoadInt                0xfff002dc   0x68  Code  Lc  xprintffull_nomb.o [4]
+_Mem_Heap               0x00000408  0x400  Data  Gb  lib_mem.o [1]
+_Mem_Init               0xfff04c6c   0x36  Code  Gb  lib_mem.o [1]
+_Mem_SegCreate          0xfff04c35   0x37  Code  Gb  lib_mem.o [1]
+_Mem_SegCreateCritical  0xfff04c13   0x22  Code  Lc  lib_mem.o [1]
+_Mem_SegHeadPtr         0x00001e6c    0x4  Data  Gb  lib_mem.o [1]
+_Mem_SegHeap            0x00001e18   0x14  Data  Gb  lib_mem.o [1]
+_OSCfg_ISRStk           0x00001008  0x190  Data  Gb  os_cfg_app.o [1]
+_OSCfg_ISRStkBasePtr    0xfff00190    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_ISRStkSize       0xfff00194    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_IdleTaskStk      0x000017c8  0x100  Data  Gb  os_cfg_app.o [1]
+_OSCfg_IdleTaskStkBasePtr
+                        0xfff00184    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_IdleTaskStkLimit
+                        0xfff00188    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_IdleTaskStkSize  0xfff0018c    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_Init             0xfff02efc    0x1  Code  Gb  os_cfg_app.o [1]
+_OSCfg_MsgPool          0x00001648  0x180  Data  Gb  os_cfg_app.o [1]
+_OSCfg_MsgPoolBasePtr   0xfff00198    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_MsgPoolSize      0xfff00182    0x2  Data  Gb  os_cfg_app.o [1]
+_OSCfg_StatTaskPrio     0xfff001d0    0x1  Data  Gb  os_cfg_app.o [1]
+_OSCfg_StatTaskRate_Hz  0xfff0019c    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_StatTaskStk      0x00001198  0x190  Data  Gb  os_cfg_app.o [1]
+_OSCfg_StatTaskStkBasePtr
+                        0xfff001a0    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_StatTaskStkLimit
+                        0xfff001a4    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_StatTaskStkSize  0xfff001a8    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_StkSizeMin       0xfff001ac    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TickRate_Hz      0xfff001b0    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TickTaskPrio     0xfff001d1    0x1  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TickTaskStk      0x00001328  0x190  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TickTaskStkBasePtr
+                        0xfff001b4    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TickTaskStkLimit
+                        0xfff001b8    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TickTaskStkSize  0xfff001bc    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TmrTaskPrio      0xfff001d2    0x1  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TmrTaskRate_Hz   0xfff001c0    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TmrTaskStk       0x000014b8  0x190  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TmrTaskStkBasePtr
+                        0xfff001c4    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TmrTaskStkLimit  0xfff001c8    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCfg_TmrTaskStkSize   0xfff001cc    0x4  Data  Gb  os_cfg_app.o [1]
+_OSCtxSw                0xfff02419    0x9  Code  Gb  os_cpu_c.o [1]
+_OSCtxSwISR             0xfff02f21         Code  Gb  os_cpu_a.o [1]
+_OSIdleTaskHook         0xfff022a2   0x14  Code  Gb  os_cpu_c.o [1]
+_OSIdleTaskTCB          0x00001acc   0xac  Data  Gb  os_var.o [1]
+_OSInit                 0xfff01163  0x122  Code  Gb  os_core.o [1]
+_OSInitHook             0xfff022b6   0x23  Code  Gb  os_cpu_c.o [1]
+_OSInitialized          0x00001ed0    0x1  Data  Gb  os_var.o [1]
+_OSIntCtxSw             0xfff02422    0x9  Code  Gb  os_cpu_c.o [1]
+_OSIntEnter             0xfff01285   0x2c  Code  Gb  os_core.o [1]
+_OSIntExit              0xfff012b1  0x121  Code  Gb  os_core.o [1]
+_OSIntNestingCtr        0x00001ece    0x1  Data  Gb  os_var.o [1]
+_OSMsgPool              0x00001e64    0x8  Data  Gb  os_var.o [1]
+_OSMutexCreate          0xfff02f9e   0x5f  Code  Gb  os_mutex.o [1]
+_OSMutexPend            0xfff03047  0x1d0  Code  Gb  os_mutex.o [1]
+_OSMutexPost            0xfff03217  0x1ae  Code  Gb  os_mutex.o [1]
+_OSPrioCur              0x00001ed1    0x1  Data  Gb  os_var.o [1]
+_OSPrioHighRdy          0x00001ed2    0x1  Data  Gb  os_var.o [1]
+_OSPrioTbl              0x00001e5c    0x8  Data  Gb  os_prio.o [1]
+_OSQCreate              0xfff04ca2   0x6b  Code  Gb  os_q.o [1]
+_OSQPend                0xfff04d0d  0x19b  Code  Gb  os_q.o [1]
+_OSQPost                0xfff04ea8   0xf5  Code  Gb  os_q.o [1]
+_OSRdyList              0x00000e08  0x200  Data  Gb  os_var.o [1]
+_OSRunning              0x00001ecf    0x1  Data  Gb  os_var.o [1]
+_OSSched                0xfff013d2   0xc5  Code  Gb  os_core.o [1]
+_OSSchedLock            0xfff01497   0x6b  Code  Gb  os_core.o [1]
+_OSSchedLockNestingCtr  0x00001ed3    0x1  Data  Gb  os_var.o [1]
+_OSSchedRoundRobinDfltTimeQuanta
+                        0x00001e90    0x4  Data  Gb  os_var.o [1]
+_OSSchedRoundRobinEn    0x00001ed4    0x1  Data  Gb  os_var.o [1]
+_OSSchedUnlock          0xfff01502   0x9e  Code  Gb  os_core.o [1]
+_OSSemCreate            0xfff0531a   0x58  Code  Gb  os_sem.o [1]
+_OSSemPend              0xfff05372  0x176  Code  Gb  os_sem.o [1]
+_OSSemPost              0xfff054e8   0xfa  Code  Gb  os_sem.o [1]
+_OSStart                0xfff015da   0x9d  Code  Gb  os_core.o [1]
+_OSStartHighRdy         0xfff02efd         Code  Gb  os_cpu_a.o [1]
+_OSStatReset            0xfff029da   0x30  Code  Gb  os_stat.o [1]
+_OSStatResetFlag        0x00001ed5    0x1  Data  Gb  os_var.o [1]
+_OSStatTaskCPUUsage     0x00001dce    0x2  Data  Gb  os_var.o [1]
+_OSStatTaskCPUUsageInit
+                        0xfff02a0a   0xfc  Code  Gb  os_stat.o [1]
+_OSStatTaskCPUUsageMax  0x00001ec8    0x2  Data  Gb  os_var.o [1]
+_OSStatTaskCtr          0x00001e94    0x4  Data  Gb  os_var.o [1]
+_OSStatTaskCtrMax       0x00001e98    0x4  Data  Gb  os_var.o [1]
+_OSStatTaskCtrRun       0x00001e9c    0x4  Data  Gb  os_var.o [1]
+_OSStatTaskHook         0xfff022d9   0x14  Code  Gb  os_cpu_c.o [1]
+_OSStatTaskRdy          0x00001ed6    0x1  Data  Gb  os_var.o [1]
+_OSStatTaskTCB          0x00001b78   0xac  Data  Gb  os_var.o [1]
+_OSTCBCurPtr            0x00001ec0    0x4  Data  Gb  os_var.o [1]
+_OSTCBHighRdyPtr        0x00001ec4    0x4  Data  Gb  os_var.o [1]
+_OSTaskCreate           0xfff01b68  0x192  Code  Gb  os_task.o [1]
+_OSTaskCreateHook       0xfff022ed   0x14  Code  Gb  os_cpu_c.o [1]
+_OSTaskCtxSwCtr         0x00001ea0    0x4  Data  Gb  os_var.o [1]
+_OSTaskQty              0x00001eca    0x2  Data  Gb  os_var.o [1]
+_OSTaskRegNextAvailID   0x00001ed7    0x1  Data  Gb  os_var.o [1]
+_OSTaskResume           0xfff01cfa  0x17e  Code  Gb  os_task.o [1]
+_OSTaskSemPend          0xfff01e78  0x151  Code  Gb  os_task.o [1]
+_OSTaskSemPost          0xfff01fc9  0x135  Code  Gb  os_task.o [1]
+_OSTaskStkInit          0xfff02301   0x9d  Code  Gb  os_cpu_c.o [1]
+_OSTaskSuspend          0xfff020fe  0x190  Code  Gb  os_task.o [1]
+_OSTaskSwHook           0xfff0239e   0x67  Code  Gb  os_cpu_c.o [1]
+_OSTickCtr              0x00001ea4    0x4  Data  Gb  os_var.o [1]
+_OSTickListDly          0x00001ea8    0x4  Data  Gb  os_var.o [1]
+_OSTickListTimeout      0x00001eac    0x4  Data  Gb  os_var.o [1]
+_OSTickTaskTCB          0x00001c24   0xac  Data  Gb  os_var.o [1]
+_OSTimeDly              0xfff03419   0xbe  Code  Gb  os_time.o [1]
+_OSTimeDlyHMSM          0xfff034d7  0x18b  Code  Gb  os_time.o [1]
+_OSTimeTick             0xfff03662   0x74  Code  Gb  os_time.o [1]
+_OSTimeTickHook         0xfff02405   0x14  Code  Gb  os_cpu_c.o [1]
+_OSTmrListPtr           0x00001eb0    0x4  Data  Gb  os_var.o [1]
+_OSTmrMutex             0x00001e00   0x18  Data  Gb  os_var.o [1]
+_OSTmrTaskTCB           0x00001cd0   0xac  Data  Gb  os_var.o [1]
+_OSTmrTickCtr           0x00001eb4    0x4  Data  Gb  os_var.o [1]
+_OSTmrUpdateCnt         0x00001eb8    0x4  Data  Gb  os_var.o [1]
+_OSTmrUpdateCtr         0x00001ebc    0x4  Data  Gb  os_var.o [1]
+_OS_AppIdleTaskHookPtr  0x00001e80    0x4  Data  Gb  os_var.o [1]
+_OS_AppStatTaskHookPtr  0x00001e84    0x4  Data  Gb  os_var.o [1]
+_OS_AppTaskCreateHookPtr
+                        0x00001e74    0x4  Data  Gb  os_var.o [1]
+_OS_AppTaskDelHookPtr   0x00001e78    0x4  Data  Gb  os_var.o [1]
+_OS_AppTaskReturnHookPtr
+                        0x00001e7c    0x4  Data  Gb  os_var.o [1]
+_OS_AppTaskSwHookPtr    0x00001e88    0x4  Data  Gb  os_var.o [1]
+_OS_AppTimeTickHookPtr  0x00001e8c    0x4  Data  Gb  os_var.o [1]
+_OS_IdleTask            0xfff01677   0x36  Code  Gb  os_core.o [1]
+_OS_IdleTaskInit        0xfff010ff   0x47  Code  Gb  os_core.o [1]
+_OS_KA_IPL_Boundary     0x00001e70    0x4  Data  Gb  os_cpu_c.o [1]
+_OS_MemInit             0xfff024c8    0x4  Code  Gb  os_mem.o [1]
+_OS_MsgPoolInit         0xfff024cc   0x87  Code  Gb  os_msg.o [1]
+_OS_MsgQGet             0xfff0255f   0x6f  Code  Gb  os_msg.o [1]
+_OS_MsgQInit            0xfff02553    0xc  Code  Gb  os_msg.o [1]
+_OS_MsgQPut             0xfff025ce   0x97  Code  Gb  os_msg.o [1]
+_OS_MutexGrpAdd         0xfff03040    0x7  Code  Gb  os_mutex.o [1]
+_OS_MutexGrpPrioFindHighest
+                        0xfff02ffd   0x2d  Code  Gb  os_mutex.o [1]
+_OS_MutexGrpRemove      0xfff0302a   0x16  Code  Gb  os_mutex.o [1]
+_OS_Pend                0xfff0176a   0x4e  Code  Gb  os_core.o [1]
+_OS_PendListChangePrio  0xfff01878   0x22  Code  Gb  os_core.o [1]
+_OS_PendListInit        0xfff0189a    0x7  Code  Gb  os_core.o [1]
+_OS_PendListInsertPrio  0xfff016ad   0x52  Code  Gb  os_core.o [1]
+_OS_PendListRemove      0xfff01832   0x46  Code  Gb  os_core.o [1]
+_OS_Post                0xfff018a1   0x70  Code  Gb  os_core.o [1]
+_OS_PrioGetHighest      0xfff02440   0x26  Code  Gb  os_prio.o [1]
+_OS_PrioInit            0xfff0242b   0x15  Code  Gb  os_prio.o [1]
+_OS_PrioInsert          0xfff02466   0x30  Code  Gb  os_prio.o [1]
+_OS_PrioRemove          0xfff02496   0x32  Code  Gb  os_prio.o [1]
+_OS_RdyListInit         0xfff01146   0x1d  Code  Gb  os_core.o [1]
+_OS_RdyListInsert       0xfff01810   0x22  Code  Gb  os_core.o [1]
+_OS_RdyListInsertHead   0xfff017b8   0x2d  Code  Gb  os_core.o [1]
+_OS_RdyListInsertTail   0xfff017e5   0x2b  Code  Gb  os_core.o [1]
+_OS_RdyListMoveHeadToTail
+                        0xfff015a0   0x3a  Code  Gb  os_core.o [1]
+_OS_RdyListRemove       0xfff016ff   0x47  Code  Gb  os_core.o [1]
+_OS_SchedRoundRobin     0xfff01911   0xe1  Code  Gb  os_core.o [1]
+_OS_StatTask            0xfff02b06  0x17c  Code  Gb  os_stat.o [1]
+_OS_StatTaskInit        0xfff02c82   0xac  Code  Gb  os_stat.o [1]
+_OS_TaskBlock           0xfff01746   0x24  Code  Gb  os_core.o [1]
+_OS_TaskChangePrio      0xfff019f2   0xbb  Code  Gb  os_task.o [1]
+_OS_TaskInit            0xfff0228e   0x14  Code  Gb  os_task.o [1]
+_OS_TaskInitTCB         0xfff01aad   0xbb  Code  Gb  os_task.o [1]
+_OS_TickListInsert      0xfff0289e   0x65  Code  Gb  os_tick.o [1]
+_OS_TickListInsertDly   0xfff02903   0x8b  Code  Gb  os_tick.o [1]
+_OS_TickListRemove      0xfff0298e   0x4c  Code  Gb  os_tick.o [1]
+_OS_TickListUpdateDly   0xfff02737   0x72  Code  Lc  os_tick.o [1]
+_OS_TickListUpdateTimeout
+                        0xfff02665   0xd2  Code  Lc  os_tick.o [1]
+_OS_TickTask            0xfff027a9   0x59  Code  Gb  os_tick.o [1]
+_OS_TickTaskInit        0xfff02802   0x9c  Code  Gb  os_tick.o [1]
+_OS_TmrInit             0xfff02d91   0xf4  Code  Gb  os_tmr.o [1]
+_OS_TmrLock             0xfff02d42   0x1c  Code  Lc  os_tmr.o [1]
+_OS_TmrTask             0xfff02e85   0x77  Code  Gb  os_tmr.o [1]
+_OS_TmrUnlink           0xfff02d5e   0x33  Code  Gb  os_tmr.o [1]
+_OS_TmrUnlock           0xfff02d2e   0x14  Code  Lc  os_tmr.o [1]
+_StartupTask            0xfff04843   0xd0  Code  Lc  main.o [1]
+_StartupTaskStk         0x00000808  0x200  Data  Lc  main.o [1]
+_StartupTaskTCB         0x000018c8   0xac  Data  Lc  main.o [1]
+__COM_CONVf32s          0xfff0109d         Code  Gb  f32toi32.o [4]
+__COM_CONVf32u          0xfff0109d         Code  Gb  f32toi32.o [4]
+__GenldFullNoMb         0xfff00344  0x27f  Code  Lc  xprintffull_nomb.o [4]
+__LdtobFullNoMb         0xfff005c4  0x373  Code  Lc  xprintffull_nomb.o [4]
+__LitobFullNoMb         0xfff001d4  0x107  Code  Lc  xprintffull_nomb.o [4]
+__PrintfFullNoMb        0xfff00938  0x564  Code  Gb  xprintffull_nomb.o [4]
+__PutcharsFullNoMb      0xfff00e9c   0x33  Code  Lc  xprintffull_nomb.o [4]
+__SProut                0xfff05830    0xb  Code  Gb  xsprout.o [4]
+___DebugBreak           0xfff0570c    0x1  Code  Gb  __dbg_break.o [3]
+___NMI_handler          0xfff010d6         Code  Wk  def_nmi_handlers.o [6]
+___exit                 0xfff056f8   0x12  Code  Gb  __dbg_xxexit.o [3]
+___iar_Dnorm            0xfff00f94   0x28  Code  Gb  xdnorm.o [4]
+___iar_Dscale           0xfff00fbc   0xe1  Code  Gb  xdscale.o [4]
+___iar_ForwardingLockFunctions {Abs}
+                        0x00000000          --   Gb  xsyslock.o [4]
+___iar_Memchr           0xfff010e8   0x17  Code  Gb  memchr.o [4]
+___iar_Strchr           0xfff010c4   0x12  Code  Gb  strchr.o [4]
+___iar_data_init2       0xfff056cc   0x1f  Code  Gb  data_init.o [4]
+___iar_lz77_init_single2
+                        0xfff05610   0x6c  Code  Gb  lz77_init_single.o [4]
+___iar_zero_init2       0xfff057c0   0x1a  Code  Gb  zero_init2.o [4]
+___interrupt_0          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_1          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_10         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_100        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_101        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_102        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_103        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_104        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_105        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_106        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_107        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_108        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_109        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_11         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_110        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_111        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_112        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_113        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_114        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_115        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_116        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_117        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_118        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_119        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_12         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_120        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_121        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_122        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_123        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_124        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_125        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_126        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_127        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_128        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_129        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_13         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_130        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_131        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_132        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_133        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_134        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_135        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_136        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_137        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_138        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_139        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_14         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_140        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_141        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_142        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_143        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_144        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_145        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_146        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_147        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_148        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_149        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_15         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_150        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_151        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_152        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_153        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_154        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_155        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_156        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_157        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_158        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_159        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_16         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_160        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_161        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_162        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_163        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_164        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_165        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_166        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_167        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_168        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_169        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_17         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_170        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_171        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_172        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_173        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_174        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_175        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_176        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_177        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_178        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_179        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_18         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_180        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_181        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_182        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_183        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_184        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_185        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_186        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_187        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_188        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_189        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_19         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_190        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_191        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_192        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_193        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_194        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_195        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_196        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_197        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_198        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_199        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_2          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_20         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_200        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_201        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_202        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_203        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_204        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_205        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_206        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_207        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_208        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_209        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_21         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_210        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_211        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_212        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_213        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_214        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_215        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_216        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_217        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_218        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_219        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_22         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_220        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_221        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_222        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_223        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_224        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_225        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_226        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_227        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_228        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_229        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_23         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_230        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_231        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_232        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_233        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_234        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_235        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_236        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_237        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_238        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_239        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_24         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_240        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_241        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_242        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_243        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_244        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_245        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_246        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_247        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_248        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_249        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_25         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_250        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_251        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_252        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_253        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_254        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_255        0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_26         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_27         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_28         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_29         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_3          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_30         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_31         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_32         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_33         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_34         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_35         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_36         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_37         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_38         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_39         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_4          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_40         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_41         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_42         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_43         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_44         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_45         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_46         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_47         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_48         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_49         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_5          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_50         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_51         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_52         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_53         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_54         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_55         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_56         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_57         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_58         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_59         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_6          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_60         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_61         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_62         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_63         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_64         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_65         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_66         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_67         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_68         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_69         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_7          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_70         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_71         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_72         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_73         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_74         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_75         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_76         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_77         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_78         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_79         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_8          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_80         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_81         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_82         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_83         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_84         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_85         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_86         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_87         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_88         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_89         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_9          0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_90         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_91         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_92         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_93         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_94         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_95         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_96         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_97         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_98         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___interrupt_99         0xfff05730   0x20  Code  Wk  interrupt_table.o [4]
+___privileged_handler   0xfff010d6         Code  Wk  def_nmi_handlers.o [6]
+___undefined_handler    0xfff010d6         Code  Wk  def_nmi_handlers.o [6]
+___undefined_interrupt_source_handler
+                        0xfff010d6         Code  Wk  def_nmi_handlers.o [6]
+__exit                  0xfff056f0         Code  Gb  cexit.o [4]
+__float_placeholder     0xfff010d6         Code  Wk  def_nmi_handlers.o [6]
+__iar_cstart_end        0xfff056ca         Code  Gb  startup_rx.o [1]
+__iar_div64u            0xfff00ecf         Code  Gb  div64u.o [5]
+__iar_main_call         0xfff056ba         Code  Gb  startup_rx.o [1]
+__iar_program_start     0xfff056a8         Code  Gb  startup_rx.o [1]
+__iar_reset_vector      0xfffffffc         Data  Gb  nmivec.o [6]
+_abort                  0xfff05750    0xf  Code  Gb  __dbg_abort.o [3]
+_default_handler        0xfff05730   0x20  Code  Gb  interrupt_table.o [4]
+_div                    0xfff00f80    0xd  Code  Gb  div.o [4]
+_exit                   0xfff056ec    0x4  Code  Gb  exit.o [4]
+_flag                   0x00000404    0x4  Data  Lc  main.o [1]
+_main                   0xfff0479d   0xa6  Code  Gb  main.o [1]
+_memcpy                 0xfff00f74    0xb  Code  Gb  memcpy.o [4]
+_strlen                 0xfff010d8    0xe  Code  Gb  strlen.o [4]
+_vector_table           0xfff04020  0x400  Data  Gb  interrupt_table.o [4]
+_vsprintf               0xfff055e4   0x2b  Code  Gb  vsprintf.o [4]
+
+
+[1] = C:\Users\Brannon\Development\Independent Study\MicroCOS-III\Renesas\YRDKRX63N\MultiTaskWithKernelObjects\OS3\IAR\source\Obj
+[2] = command line
+[3] = dbgrxflld.a
+[4] = dlrxflln.a
+[5] = rtrxfll.a
+[6] = strxl.a
+
+  20 825 bytes of readonly  code memory
+   2 736 bytes of readonly  data memory
+   9 940 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
